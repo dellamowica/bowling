@@ -1,0 +1,8 @@
+{
+    "autoload": {
+        "psr-4": {"Bowling\\": "src/"}
+    },
+    "require": {
+        "phpunit/phpunit": "^8.4"
+    }
+}
