@@ -3,4 +3,4 @@ services:
   php74:
     build: .
     volumes:
-      - .:/bowling
+      - .:/var/www/html
