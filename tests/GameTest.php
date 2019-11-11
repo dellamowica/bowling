@@ -29,8 +29,7 @@ class GameTest extends TestCase
         $game = new Game();
         $player = new Player("bob");
         $game->addPlayer($player);
-        $game->play(8);
         $currentPlayer = $game->getCurrentPlayer();
-        $this->assertEquals(8, $currentPlayer->getScore());
+        $this->assertEquals(0, $currentPlayer->getScore());
     }
 }
