@@ -3,6 +3,6 @@
         "psr-4": {"Bowling\\": "src/"}
     },
     "require": {
-        "phpunit/phpunit": "^8.4"
+        "phpunit/phpunit": "^12.5"
     }
 }
